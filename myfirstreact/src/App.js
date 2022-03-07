@@ -1,14 +1,19 @@
 import "./App.css";
-import Grid from "./snake";
+import { Snake } from "./Snake";
+import Count from "./Click";
+import Start from "./Start";
+import React , { useState } from 'react';
+
 
 function App() {
-  const array = [];
-  for (let i = 0; i < 99; i++) {
-    array.push(<Grid />)
-  }
-  return array.forEach((el , i) => {
-    return console.log(el);
-  });
+    return (
+       { const [isOpen, setOpen] = useState(false)}
+
+        // <>
+        //     <Snake />
+        //     <Count />
+        // </>
+    );
 }
 
 export default App;
