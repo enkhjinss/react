@@ -1,4 +1,4 @@
-import "./snake.css";
+import "../styles/snake.css";
 
 const Box = () => {
     return <div className="box"></div>;

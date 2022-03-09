@@ -1,5 +1,5 @@
 import React , { useState } from 'react';
-import "./snake.css"; 
+import "../styles/snake.css"; 
 
 // const refreshPage = () => {
 //     window.location.reload(false);
